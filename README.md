@@ -6,7 +6,7 @@ Simulação física bidimensional de um foguete, feita em **TypeScript + HTML5 C
 
 O foco do trabalho é o **laço de física** e a **aplicação correta dos vetores** (empuxo, peso, aceleração), e não os gráficos.
 
-> **🔗 Repositório GitHub:** `<COLE AQUI O LINK DO REPOSITÓRIO>`
+> **🔗 Repositório GitHub:** `<https://github.com/luigi0306/proj-simulacao-movimento>`
 
 ---
 
@@ -56,7 +56,7 @@ Se você tiver o `git` instalado e preferir clonar o código diretamente do repo
 1. Abra o terminal (Prompt de Comando ou PowerShell).
 2. Execute o comando de clonagem:
    ```bash
-   git clone <COLE AQUI O LINK DO REPOSITÓRIO>
+   git clone https://github.com/luigi0306/proj-simulacao-movimento
    ```
 3. Acesse a pasta do projeto:
    ```bash
