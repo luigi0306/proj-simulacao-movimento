@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador de Foguete 2D</title>
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="gameCanvas"></canvas>
+      <div id="overlay">
+        <h1>Simulador de Foguete 2D</h1>
+        <p>Aperte qualquer tecla ou clique para iniciar</p>
+        <div style="margin-top: 2rem; text-align: left; background: rgba(0,0,0,0.5); padding: 1rem; border-radius: 8px;">
+          <p><strong>Controles:</strong></p>
+          <ul>
+            <li><strong>ESPAÇO:</strong> Propulsão</li>
+            <li><strong>← / →:</strong> Inclinar (±30°)</li>
+            <li><strong>R:</strong> Reiniciar simulação</li>
+          </ul>
+        </div>
+      </div>
+      <div id="gameover" class="hidden">
+        <h1>Fim de Simulação</h1>
+        <p>Tempo de voo: <span id="score">0.000</span> s</p>
+        <p>Velocidade de impacto: <span id="impactVelocity">0.0</span> m/s</p>
+        <p style="margin-top: 2rem; font-size: 0.9em; opacity: 0.7;">Pressione R para reiniciar</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
